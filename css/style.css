@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+html {
+    font-size: 75%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+main{
+    background-color: rgb(181, 195, 255);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+.container-imagen-logo{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav-container{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container-one{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-container-two{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.nav-container-one a{
+    margin-left: 10%;
+}
+video{
+    width: 50%;
+    height: 50%;
+    flex-direction: row;
+    border: 1px;
+    border-color: black;
+    padding: 2%;
+    
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+h2{
+    font-size: 10%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 5%;
+}
+.parrafo{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(176, 250, 225);
+    text-align: center;
+}
+h3 {
+    font-size: 10%;
+    margin-top: 2%;
+    text-align: left;
+    color: #333;
+    }
+    
+    h3 p {
+    margin: 0;
+    margin-bottom: 2%;
+    }
+    
+img[alt="Formas de pago"] {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+form {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    }
+
+form label {
+    display: block;
+    margin-bottom: 10%;
+    font-size: 10%;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    }
+
+footer {
+    background-color: rgb(81, 235, 235);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media(max-width: 480px){
+
+    header{
+        background-color: azure;
+    }
+    
+    .nav-container-one{
+        width: auto;
+        height: auto;
+    }
+    .parrafo{
+        font-size: 80%;
+        max-width: 80%;
+        background-color: blanchedalmond;
+    }
+    h1 {
+        font-size: 10px;
+        text-align: center;
+        }
+
+    h2{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    form label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+    } 
+    video{
+        flex-direction: row;
+    }       
+   
+}
+
+@media(min-width: 768px){
+
+    header{
+        background-color: coral;
+    }
+
+    .container-imagen-logo{
+        width: 100%;
+        max-width: 150px;
+        justify-content: start;
+        align-items: center;       
+    }
+    .nav-container-one{
+        width: auto;
+        height: auto;
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .parrafo{
+        width: auto;
+        height: auto;
+        background-color: azure;
+    }
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        }
+        
+        video {
+        display: flex;
+        margin: 0 auto;
+        }
+    h2{
+        width: auto;
+        height: auto;
+    }
+    form label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        color: #333;
+        }
+    }
+
+@media(min-width: 1024px){
+
+    header{
+        background-color: aquamarine;
+    }
+    .container-imagen-logo{
+        display: flex;
+        justify-content: start;
+        align-items: center;       
+    }
+    .parrafo{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+}
